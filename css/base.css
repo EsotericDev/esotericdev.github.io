@@ -85,15 +85,12 @@ section {
 	margin-bottom: 10px;
 	background-color: #FFF8DC;
 	border-style: solid;
-	border-width: 2px 0px 0px 0px;
+	border-width: 4px 0px 4px 0px;
 	border-color: #000000;
 }
 section > h1 {
 	box-sizing: border-box;
 	background-color: #654321;
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
-	border-color: #000000;
 	color: #FFF8DC;
 	margin: 0px;
 	padding: 5px 10px 5px 10px;
@@ -101,9 +98,6 @@ section > h1 {
 section > div {
 	box-sizing: border-box;
 	padding: 25px;
-	border-style: solid;
-	border-width: 0px 0px 2px 0px;
-	border-color: #000000;
 }
 section > div p:first-of-type {
 	text-indent: 0px;
