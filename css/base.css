@@ -1,5 +1,31 @@
 * {
+	color: #000000;
+	font: normal normal normal 14px/1 FontBookerlyRegular;
+	font-size: medium;
 }
+
+h1 {
+	font: normal normal normal 14px/1 FontSaddlebag;
+	font-size: xx-large;
+}
+h2 {
+	font: normal normal normal 14px/1 FontSaddlebag;
+	font-size: x-large;
+}
+h3 {
+	font: normal normal normal 14px/1 FontSaddlebag;
+	font-size: large;
+}
+strong {
+	font: normal normal normal 14px/1 FontBookerlyBold;
+}
+em {
+	font: normal normal normal 14px/1 FontBookerlyRegularItalic;
+}
+strong em, em strong {
+	font: normal normal normal 14px/1 FontBookerlyBoldItalic;
+}
+
 
 html {
 	height: 100%;
