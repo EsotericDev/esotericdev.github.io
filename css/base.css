@@ -43,8 +43,8 @@ strong em, em strong {
 /* BASE CONFIGURATION */
 html {
 	height: 100%;
-	/*background: linear-gradient(to bottom right, #381C2A, #F06553, #FFF474) no-repeat center center fixed;*/
-	background: url("/css/img/bg.jpg") no-repeat center center fixed;
+	background: linear-gradient(to bottom right, #381C2A, #F06553, #FFF474) no-repeat center center fixed;
+	/*background: url("/css/img/bg.jpg") no-repeat center center fixed;*/
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -84,14 +84,17 @@ section {
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	background-color: #FFF8DC;
+	/*background-color: #FFF8DC;*/
+	background: url("/css/img/bg.jpg") no-repeat center center fixed;
 	border-style: solid;
-	border-width: 4px 0px 4px 0px;
+	/*border-width: 4px 0px 4px 0px;*/
+	border-width: 2px 0px 0px 0px;
 	border-color: #000000;
 }
 section > h1 {
 	box-sizing: border-box;
-	background-color: #654321;
+	/*background-color: #654321;*/
+	background-color: rgba(0, 0, 0, 0.75);
 	color: #FFF8DC;
 	margin: 0px;
 	padding: 5px 10px 5px 10px;
