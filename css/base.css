@@ -26,6 +26,7 @@ h3 {
 	margin: 0px;
 }
 p {
+	margin-top: 0px;
 	text-align: justify;
 	text-indent: 2em;
 }
@@ -104,9 +105,9 @@ section > div {
 	border-width: 0px 0px 2px 0px;
 	border-color: #000000;
 }
-/*section.contentsection p:first-of-type {
+section > div p:first-of-type {
 	text-indent: 0px;
-}*/
+}
 
 /* FOOTER */
 footer {
