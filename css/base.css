@@ -23,6 +23,10 @@ h3 {
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
+p {
+	text-align: justify;
+	text-indent: 2em;
+}
 strong {
 	font: normal normal normal 14px/1 FontBookerlyBold;
 }
