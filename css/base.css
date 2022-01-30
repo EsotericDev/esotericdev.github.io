@@ -77,9 +77,7 @@ header img {
 section.content {
 	display: block;
 	max-width: 1000px;
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin: auto 10px auto 10px;
 	padding: 25px;
 	background-color: #FFFDD0;
 	border-style: solid;
@@ -95,9 +93,9 @@ section h1.sectionheader {
 	margin: 0px;
 	padding: 5px 10px 5px 10px;
 }
-section.contentsection p:first-of-type {
+/*section.contentsection p:first-of-type {
 	text-indent: 0px;
-}
+}*/
 
 /* FOOTER */
 footer {
