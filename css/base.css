@@ -13,8 +13,6 @@ html {
 body {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
-	min-height: 100%;
-	position: relative;
 }
 
 hr {
@@ -37,11 +35,9 @@ header img {
 footer {
 	display: block;
 	max-width: 1000px;
-	position: absolute;
-	bottom: 0px;
 	margin: auto;
 	background-color: #000000;
 	color: #FFFDD0;
 	padding: 25px;
-	border-radius: 25px 25px 0px 0px;
+	border-radius: 25px 25px 5px 5px;
 }
