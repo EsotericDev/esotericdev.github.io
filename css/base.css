@@ -43,8 +43,8 @@ strong em, em strong {
 /* BASE CONFIGURATION */
 html {
 	height: 100%;
-	background: linear-gradient(to bottom right, #381C2A, #662E34, #F06553, #FFF474) no-repeat center center fixed;
-	/*background: url("/css/img/bg.jpg") no-repeat center center fixed;*/
+	/*background: linear-gradient(to bottom right, #381C2A, #662E34, #F06553, #FFF474) no-repeat center center fixed;*/
+	background: url("/css/img/bg.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
