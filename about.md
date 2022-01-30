@@ -1,1 +1,0 @@
-About page goes here.
