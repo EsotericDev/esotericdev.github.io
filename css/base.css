@@ -31,6 +31,6 @@ footer {
 	display: block;
 	max-width: 1000px;
 	margin: auto;
-	position: absolute;
-	bottom: 0;
+	background-color: #000000;
+	color: #FFFDD0;
 }
