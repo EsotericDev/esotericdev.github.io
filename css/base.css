@@ -94,7 +94,7 @@ section {
 section > h1 {
 	box-sizing: border-box;
 	/*background-color: #654321;*/
-	background-color: rgba(0, 0, 0, 0.75);
+	background-color: rgba(0, 0, 0, 0.50);
 	color: #FFF8DC;
 	margin: 0px;
 	padding: 5px 10px 5px 10px;
