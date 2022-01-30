@@ -9,3 +9,13 @@ html {
 	-o-background-size: cover;
 	background-size: cover;
 }
+
+header {
+	display: block;
+	max-width: 1000px;
+	margin: auto
+}
+
+header img {
+	width: 100%;
+}
