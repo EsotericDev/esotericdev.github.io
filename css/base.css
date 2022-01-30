@@ -10,10 +10,15 @@ html {
 	background-size: cover;
 }
 
+hr {
+	border-width: 3px;
+}
+
 header {
 	display: block;
 	max-width: 1000px;
-	margin: auto
+	margin: auto;
+	text-align: center;
 }
 
 header img {
