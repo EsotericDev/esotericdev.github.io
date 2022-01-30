@@ -1,3 +1,4 @@
+/* INITIAL */
 * {
 	color: #000000;
 	font: normal normal normal 14px/1 FontBookerlyRegular;
@@ -5,6 +6,7 @@
 	text-rendering: optimizeLegibility;
 }
 
+/* MARKDOWN */
 h1 {
 	font: normal normal normal 14px/1 FontSaddlebag;
 	font-size: xx-large;
@@ -37,7 +39,7 @@ strong em, em strong {
 	font: normal normal normal 14px/1 FontBookerlyBoldItalic;
 }
 
-
+/* BASE CONFIGURATION */
 html {
 	height: 100%;
 	background: linear-gradient(to bottom right, #381C2A, #F06553, #FFF474) no-repeat center center fixed;
@@ -52,12 +54,14 @@ body {
 	margin-bottom: 0px;
 }
 
+/* HR */
 hr {
 	border-style: solid;
-	border-width: 3px;
+	border-width: 2px;
 	border-color: #000000;
 }
 
+/* HEADER */
 header {
 	display: block;
 	max-width: 1000px;
@@ -69,6 +73,27 @@ header img {
 	width: 100%;
 }
 
+/* SECTION */
+section {
+	display: block;
+	max-width: 1000px;
+	margin: auto;
+	background-color: #FFFDD0;
+	border-style: solid;
+	border-width: 2px 0px 2px 0px;
+	border-color: #000000;
+}
+section h1.sectionheader {
+	background-color: #654321;
+	border-style: solid;
+	border-width: 0px 0px 2px 0px;
+	border-color: #000000;
+	color: #FFFDD0;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+}
+
+/* FOOTER */
 footer {
 	display: block;
 	max-width: 1000px;
