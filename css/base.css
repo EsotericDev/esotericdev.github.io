@@ -10,7 +10,7 @@ html {
 	background-size: cover;
 }
 
-boddy {
+body {
 	padding-bottom: 0px;
 	margin-bottom: 0px;
 }
@@ -39,5 +39,5 @@ footer {
 	background-color: #000000;
 	color: #FFFDD0;
 	padding: 25px;
-	corner-radius: 25px 25px 0px 0px;
+	border-radius: 25px 25px 0px 0px;
 }
