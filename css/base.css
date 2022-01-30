@@ -26,3 +26,11 @@ header {
 header img {
 	width: 100%;
 }
+
+footer {
+	display: block;
+	max-width: 1000px;
+	margin: auto;
+	position: absolute;
+	bottom: 0;
+}
