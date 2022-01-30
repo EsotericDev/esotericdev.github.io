@@ -2,37 +2,35 @@
 	color: #000000;
 	font: normal normal normal 14px/1 FontBookerlyRegular;
 	font-size: medium;
+	text-rendering: optimizeLegibility;
 }
 
 h1 {
 	font: normal normal normal 14px/1 FontSaddlebag;
 	font-size: xx-large;
-	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
 	margin: 0px;
 }
 h2 {
 	font: normal normal normal 14px/1 FontSaddlebag;
 	font-size: x-large;
-	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
 	margin: 0px;
 }
 h3 {
 	font: normal normal normal 14px/1 FontSaddlebag;
 	font-size: large;
-	text-rendering: optimizeLegibility;
+	text-rendering: geometricPrecision;
 	margin: 0px;
 }
 strong {
 	font: normal normal normal 14px/1 FontBookerlyBold;
-	text-rendering: optimizeLegibility;
 }
 em {
 	font: normal normal normal 14px/1 FontBookerlyRegularItalic;
-	text-rendering: optimizeLegibility;
 }
 strong em, em strong {
 	font: normal normal normal 14px/1 FontBookerlyBoldItalic;
-	text-rendering: optimizeLegibility;
 }
 
 
