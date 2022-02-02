@@ -84,7 +84,7 @@ section {
 	margin: auto;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	/*background-color: #FFF8DC;*/
+	background-color: #F9F5EC;
 	/*background-image: url("/css/img/bg.jpg");*/
 	border-style: solid;
 	/*border-width: 4px 0px 4px 0px;*/
@@ -93,8 +93,8 @@ section {
 }
 section > h1 {
 	box-sizing: border-box;
-	/*background-color: #654321;*/
-	background-color: rgba(0, 0, 0, 0.50);
+	background-color: #271E0C;
+	/*background-color: rgba(0, 0, 0, 0.50);*/
 	color: #FFF8DC;
 	margin: 0px;
 	padding: 5px 10px 5px 10px;
