@@ -13,15 +13,15 @@
 			<h1>Collection test</h1>
 			<div>
 				Collection: 
-				{%- if news.blog -%}
-					{{ news.blog | size }}
+				{%- if site.news -%}
+					{{ site.news | size }}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
 				<br>
 				First element: 
-				{%- if news.blog[0] -%}
-					{{ news.blog[0].title }}
+				{%- if site.news[0] -%}
+					{{ site.news[0].title }}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
