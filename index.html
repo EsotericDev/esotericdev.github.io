@@ -10,6 +10,24 @@
 	<body>
 		{%- include header.html -%}
 		<section>
+			<h1>Collection test</h1>
+			<div>
+				Collection:
+				{%- if site.blog -%}
+					{{ site.blog | size }}
+				{%- else -%}
+					Nope...
+				{%- endif -%}
+				<br>
+				First element:
+				{%- if site.blog[0] -%}
+					{{ site.blog[0].title }}
+				{%- else -%}
+					Nope...
+				{%- endif -%}
+			</div>
+		</section>
+		<section>
 			<h1>Initial tests</h1>
 			<div>
 				Testing font awesome: <i class="fa fa-html5" aria-hidden="true"></i><br>
