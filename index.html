@@ -22,7 +22,7 @@
 				First element: 
 				{%- if site.news[0] -%}
 					<h2>{{ site.news[0].title }}</h2>
-					By: {{site.news[0].author}}, on {{site.news[0].date}}
+					By: {{site.news[0].author}}, on {{site.news[0].date | date: "%-d %B %Y"}}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
