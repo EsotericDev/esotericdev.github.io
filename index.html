@@ -20,9 +20,17 @@
 				{%- endif -%}
 				<br>
 				First element: 
-				{%- if site.news[site.news.size - 1] -%}
-					<h2>{{ site.news[site.news.size - 1].title }}</h2>
-					By: {{site.news[site.news.size - 1].author}}, on {{site.news[site.news.size - 1].date | date: "%-d %B %Y"}}
+				{%- if site.news.first -%}
+					<h2>{{ site.news.first.title }}</h2>
+					By: {{site.news.first.author}}, on {{site.news.first.date | date: "%-d %B %Y"}}
+				{%- else -%}
+					Nope...
+				{%- endif -%}
+				<br>
+				Last element: 
+				{%- if site.news.last -%}
+					<h2>{{ site.news.last.title }}</h2>
+					By: {{site.news.last.author}}, on {{site.news.last.date | date: "%-d %B %Y"}}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
