@@ -20,9 +20,9 @@
 				{%- endif -%}
 				<br>
 				First element: 
-				{%- if site.news[0] -%}
-					<h2>{{ site.news[0].title }}</h2>
-					By: {{site.news[0].author}}, on {{site.news[0].date | date: "%-d %B %Y"}}
+				{%- if site.news[site.news.size - 1] -%}
+					<h2>{{ site.news[site.news.size - 1].title }}</h2>
+					By: {{site.news[site.news.size - 1].author}}, on {{site.news[site.news.size - 1].date | date: "%-d %B %Y"}}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
