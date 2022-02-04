@@ -21,7 +21,8 @@
 				<br>
 				First element: 
 				{%- if site.news[0] -%}
-					{{ site.news[0].title }}
+					<h2>{{ site.news[0].title }}</h2>
+					By: {{site.news[0].author}}, on {{site.news[0].date}}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
