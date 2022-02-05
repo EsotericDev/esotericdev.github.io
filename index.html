@@ -19,18 +19,19 @@
 					Nope...
 				{%- endif -%}
 				<br>
+				{%- assign newsposts = site.news | reverse -%}
 				First element: 
 				{%- if site.news.first -%}
-					<h2>{{ site.news.first.title }}</h2>
-					By: {{site.news.first.author}}, on {{site.news.first.date | date: "%-d %B %Y"}}
+					<h2>{{newsposts.first.title}}</h2>
+					By: {{newsposts.first.author}}, on {{newsposts.first.date | date: "%-d %B %Y"}}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
 				<br>
 				Last element: 
 				{%- if site.news.last -%}
-					<h2>{{ site.news.last.title }}</h2>
-					By: {{site.news.last.author}}, on {{site.news.last.date | date: "%-d %B %Y"}}
+					<h2>{{newsposts.last.title}}</h2>
+					By: {{newsposts.last.author}}, on {{newsposts.last.date | date: "%-d %B %Y"}}
 				{%- else -%}
 					Nope...
 				{%- endif -%}
