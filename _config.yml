@@ -10,7 +10,7 @@ sass:
   sass_dir          : _sass
 collections:
   news:
-    output          : true
+    output: true
 
 # Handling Reading
 safe                : false
