@@ -11,7 +11,7 @@ sass:
 collections:
   news:
     output          : true
-    permalink       : /:collection/:name
+    permalink       : /:collection/:name.html
 
 # Handling Reading
 safe                : false
