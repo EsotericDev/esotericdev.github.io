@@ -10,31 +10,9 @@
 	<body>
 		{%- include header.html -%}
 		<section>
-			<h1>Collection test</h1>
+			<h1>News</h1>
 			<div>
-				Collection: 
-				{%- if site.news -%}
-					{{ site.news | size }}
-				{%- else -%}
-					Nope...
-				{%- endif -%}
-				<br>
-				{%- assign newsposts = site.news | reverse -%}
-				First element: 
-				{%- if site.news.first -%}
-					<h2>{{newsposts.first.title}}</h2>
-					By: {{newsposts.first.author}}, on {{newsposts.first.date | date: "%-d %B %Y"}}
-				{%- else -%}
-					Nope...
-				{%- endif -%}
-				<br>
-				Last element: 
-				{%- if site.news.last -%}
-					<h2>{{newsposts.last.title}}</h2>
-					By: {{newsposts.last.author}}, on {{newsposts.last.date | date: "%-d %B %Y"}}
-				{%- else -%}
-					Nope...
-				{%- endif -%}
+				{%- include collection.html col=site.news -%}
 			</div>
 		</section>
 		<section>
