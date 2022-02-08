@@ -1,0 +1,7 @@
+{%- assign colrev = col | reverse -%}
+<h2>{{colrev[0].title}}</h2>
+By: {{colrev[0].author}}, on {{newsposts[0].date | date: "%-d %B %Y"}}<hr>
+{%- if colrev[0].preview -%}
+<img src="colrev[0].preview" alt="colrev[0].previewalt" class="previewimage">
+{%- endif -%}
+{{colrev[0].excerpt | markdownify}}
