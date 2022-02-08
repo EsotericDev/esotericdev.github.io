@@ -12,13 +12,11 @@
 		</div><hr><div>
 		{%- if colrev[1] -%}
 			<a href="{{colrev[0].url}}"><h3>{{colrev[1].title}}</h3></a>
-			By: {{colrev[1].author}}, on {{colrev[1].date | date: "%-d %B %Y"}}
-			</div><hr><div>
+			By: {{colrev[1].author}}, on {{colrev[1].date | date: "%-d %B %Y"}}<br>
 		{%- endif -%}
 		{%- if colrev[2] -%}
 			<a href="{{colrev[2].url}}"><h3>{{colrev[2].title}}</h3></a>
-			By: {{colrev[2].author}}, on {{colrev[2].date | date: "%-d %B %Y"}}
-			</div><hr><div>
+			By: {{colrev[2].author}}, on {{colrev[2].date | date: "%-d %B %Y"}}<br>
 		{%- endif -%}
 		<h3>Archive...</h3>
 	</div>
