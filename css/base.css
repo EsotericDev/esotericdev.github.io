@@ -109,7 +109,7 @@ section > div p:first-of-type {
 	box-sizing: border-box;
 	width: 30%;
 	padding: 5px;
-	float: left;
+	float: right;
 }
 
 /* FOOTER */
