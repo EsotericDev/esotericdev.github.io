@@ -59,8 +59,9 @@ body {
 /* HR */
 hr {
 	border-style: solid;
-	border-width: 2px;
+	border-width: 1px;
 	border-color: #2A2920;
+	clear: both;
 }
 
 /* HEADER */
@@ -102,6 +103,13 @@ section > div {
 }
 section > div p:first-of-type {
 	text-indent: 0px;
+}
+
+.previewimage {
+	box-sizing: border-box;
+	width: 30%;
+	padding: 5px;
+	float: left;
 }
 
 /* FOOTER */
