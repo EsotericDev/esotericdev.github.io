@@ -8,7 +8,7 @@
 		{%- if colrev[0].preview -%}
 			<img src="{{colrev[0].preview}}" alt="{{colrev[0].previewalt}}" class="previewimage">
 		{%- endif -%}
-		{{colrev[0].excerpt | markdownify}}<br><br>(Read more...)
+		{{colrev[0].excerpt | markdownify}}<br>(Read more...)
 		<hr>
 		{%- if colrev[1] -%}
 			<h3>{{colrev[1].title}}</h2>
@@ -20,5 +20,6 @@
 			By: {{colrev[2].author}}, on {{colrev[2].date | date: "%-d %B %Y"}}
 			<hr>
 		{%- endif -%}
+		(Archive...)
 	</div>
 </section>
