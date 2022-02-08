@@ -4,7 +4,7 @@
 		{%- assign colrev = include.col | reverse -%}
 		<a href="{{colrev[0].url | relative_url}}"><h2>{{colrev[0].title}}</h2></a>
 		By: {{colrev[0].author}}, on {{colrev[0].date | date: "%-d %B %Y"}}
-		<hr>
+	</div><hr><div>
 		{%- if colrev[0].preview -%}
 			<img src="{{colrev[0].preview}}" alt="{{colrev[0].previewalt}}" class="previewimage">
 		{%- endif -%}
@@ -13,12 +13,12 @@
 		{%- if colrev[1] -%}
 			<a href="{{colrev[0].url}}"><h3>{{colrev[1].title}}</h3></a>
 			By: {{colrev[1].author}}, on {{colrev[1].date | date: "%-d %B %Y"}}
-			<hr>
+			</div><hr><div>
 		{%- endif -%}
 		{%- if colrev[2] -%}
 			<a href="{{colrev[2].url}}"><h3>{{colrev[2].title}}</h3></a>
 			By: {{colrev[2].author}}, on {{colrev[2].date | date: "%-d %B %Y"}}
-			<hr>
+			</div><hr><div>
 		{%- endif -%}
 		<h3>Archive...</h3>
 	</div>
