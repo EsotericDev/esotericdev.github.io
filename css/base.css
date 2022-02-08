@@ -99,7 +99,7 @@ section > h1 {
 }
 section > div {
 	box-sizing: border-box;
-	padding: 25px;
+	padding: 5px 25px 5px 25px;
 }
 section > div p:first-of-type {
 	text-indent: 0px;
