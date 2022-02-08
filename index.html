@@ -11,14 +11,11 @@
 		{%- include header.html -%}
 		{%- include collection.html col=site.news name="News"-%}
 		<section>
-			<h1>Initial tests</h1>
+			<h1>Tests</h1>
 			<div>
-				Testing font awesome: <i class="fa fa-html5" aria-hidden="true"></i><br>
-				Testing Saddlebag: <span style="font: normal normal normal 14px/1 FontSaddlebag;">Lorem ipsum</span><br>
-				Testing Bookerly: <span style="font: normal normal normal 14px/1 FontBookerlyRegular;">Lorem ipsum</span><br>
-				Testing Bookerly: <span style="font: normal normal normal 14px/1 FontBookerlyRegularItalic;">Lorem ipsum</span><br>
-				Testing Bookerly: <span style="font: normal normal normal 14px/1 FontBookerlyBold;">Lorem ipsum</span><br>
-				Testing Bookerly: <span style="font: normal normal normal 14px/1 FontBookerlyBoldItalic;">Lorem ipsum</span><br>
+				{%- for each in site.html_pages -%}
+         				{{ each.url }}<br>
+				{%- endfor -%}
 			</div>
 		</section>
 		<section>
