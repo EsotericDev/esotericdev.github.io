@@ -9,12 +9,7 @@
 	</head>
 	<body>
 		{%- include header.html -%}
-		<section>
-			<h1>News</h1>
-			<div>
-				{%- include collection.html col=site.news -%}
-			</div>
-		</section>
+		{%- include collection.html col=site.news name="News"-%}
 		<section>
 			<h1>Initial tests</h1>
 			<div>
