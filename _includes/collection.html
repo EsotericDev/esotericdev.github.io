@@ -1,9 +1,24 @@
-{%- assign colrev = include.col | reverse -%}
-<h2>{{colrev[0].title}}</h2>
-By: {{colrev[0].author}}, on {{colrev[0].date | date: "%-d %B %Y"}}
-<hr>
-{%- if colrev[0].preview -%}
-<img src="{{colrev[0].preview}}" alt="{{colrev[0].previewalt}}" class="previewimage">
-{%- endif -%}
-{{colrev[0].excerpt | markdownify}}
-<hr>
+<section>
+	<h1>{{include.name}}</h1>
+	<div>
+		{%- assign colrev = include.col | reverse -%}
+		<h2>{{colrev[0].title}}</h2>
+		By: {{colrev[0].author}}, on {{colrev[0].date | date: "%-d %B %Y"}}
+		<hr>
+		{%- if colrev[0].preview -%}
+			<img src="{{colrev[0].preview}}" alt="{{colrev[0].previewalt}}" class="previewimage">
+		{%- endif -%}
+		{{colrev[0].excerpt | markdownify}}<br><br>(Read more...)
+		<hr>
+		{%- if colrev[1] -%}
+			<h3>{{colrev[1].title}}</h2>
+			By: {{colrev[1].author}}, on {{colrev[1].date | date: "%-d %B %Y"}}
+			<hr>
+		{%- endif -%}
+		{%- if colrev[2] -%}
+			<h3>{{colrev[2].title}}</h2>
+			By: {{colrev[2].author}}, on {{colrev[2].date | date: "%-d %B %Y"}}
+			<hr>
+		{%- endif -%}
+	</div>
+</section>
