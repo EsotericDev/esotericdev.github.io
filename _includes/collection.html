@@ -2,7 +2,7 @@
 	<h1>{{include.name}}</h1>
 	<div>
 		{%- assign colrev = include.col | reverse -%}
-		<a href="{{link colrev[0].url}}"><h2>{{colrev[0].title}}</h2></a>
+		<a href="{{colrev[0].url | relative_url}}"><h2>{{colrev[0].title}}</h2></a>
 		By: {{colrev[0].author}}, on {{colrev[0].date | date: "%-d %B %Y"}}
 	</div><hr><div>
 		{%- if colrev[0].preview -%}
