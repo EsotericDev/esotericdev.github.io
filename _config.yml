@@ -17,7 +17,7 @@ defaults:
       path: ""
       type: "news"
     values:
-      layout: "news"
+      layout: news
 
 # Handling Reading
 safe                : false
