@@ -11,7 +11,8 @@ sass:
 collections:
   news:
     output: true
-    layout: news
+    defaults:
+      layout: news
     
 defaults:
   -
