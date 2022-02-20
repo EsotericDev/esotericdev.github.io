@@ -122,6 +122,9 @@ footer {
 	color: #FFF8DC;
 	padding: 25px;
 	border-radius: 25px 25px 0px 0px;
+	
+	clear: both;
 	position: relative;
-	bottom: 0px;
+	height: 200px;
+	margin-top: -200px;
 }
