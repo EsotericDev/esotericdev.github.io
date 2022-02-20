@@ -129,10 +129,10 @@ footer {
 	display: block;
 	max-width: 1000px;
 	margin: auto;
-	margin-bottom: 25px;
+	margin-top: 25px;
 	background-color: #2A2920;
 	color: #FFF8DC;
 	padding: 25px;
-	border-radius: 0px 0px 25px 25px;
+	border-radius: 25px 25px 0px 0px;
 	height: 100px;
 }
