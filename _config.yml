@@ -11,15 +11,6 @@ sass:
 collections:
   news:
     output: true
-    defaults:
-      layout: news.html
-    
-defaults:
-  -
-    scope:
-      path: _news/*
-    values:
-      layout: news.html
 
 # Handling Reading
 safe                : false
