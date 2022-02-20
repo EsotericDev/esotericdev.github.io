@@ -113,6 +113,15 @@ section > div p:first-of-type {
 	float: right;
 }
 
+.footer-container {
+	width: 100%;
+	position: absolute;
+	bottom: 0px;
+}
+.footer-spacing {
+	height: 100px;
+}
+
 /* FOOTER */
 footer {
 	box-sizing: border-box;
@@ -124,4 +133,5 @@ footer {
 	color: #FFF8DC;
 	padding: 25px;
 	border-radius: 0px 0px 25px 25px;
+	height: 100px;
 }
