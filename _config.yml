@@ -11,6 +11,12 @@ sass:
 collections:
   news:
     output: true
+    
+defaults:
+  - scope:
+      type: news
+    values:
+      layout: news
 
 # Handling Reading
 safe                : false
