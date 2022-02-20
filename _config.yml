@@ -12,7 +12,7 @@ collections:
   news:
     output: true
     
- defaults:
+defaults:
   - scope:
       path: ""
       type: "news"
