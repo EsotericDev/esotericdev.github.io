@@ -126,6 +126,6 @@ footer {
 	
 	clear: both;
 	position: absolute;
-	top: calc(100% - 100px);
+	bottom: 0px;
 	height: 100px;
 }
