@@ -15,7 +15,7 @@
 				<h2>{{page.title}}</h2>
 				By: {{page.author}}, on {{page.date | date: "%-d %B %Y"}}
 			</div><hr><div>
-				{{colrev[0].content | markdownify}}
+				{{page.content | markdownify}}
 			</div>
 		</section>
 		{%- include footer.html -%}
