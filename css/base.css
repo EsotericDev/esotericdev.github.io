@@ -125,7 +125,7 @@ footer {
 	border-radius: 25px 25px 0px 0px;
 	
 	clear: both;
-	position: absolute;
+	position: relative;
 	bottom: 0px;
 	height: 100px;
 }
