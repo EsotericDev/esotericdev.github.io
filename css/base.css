@@ -42,9 +42,8 @@ strong em, em strong {
 
 img {
 	box-sizing: border-box;
-	width: 100%;
+	width: calc(100% - 4em);
 	padding: 10px 0px 10px 0px;
-	text-indent: 0em;
 }
 
 /* BASE CONFIGURATION */
