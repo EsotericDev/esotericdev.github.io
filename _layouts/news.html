@@ -10,12 +10,11 @@
 	<body>
 		{%- include header.html -%}
 		<section>
-			<h1>{{include.name}}</h1>
+			<h1>{{ page.title }}</h1>
 			<div>
-				<h2>{{page.title}}</h2>
-				By: {{page.author}}, on {{page.date | date: "%-d %B %Y"}}
+				By: {{ page.author }}, on {{ page.date | date: "%-d %B %Y" }}
 			</div><hr><div>
-				{{page.content | markdownify}}
+				{{ page.content | markdownify }}
 			</div>
 		</section>
 		{%- include footer.html -%}
