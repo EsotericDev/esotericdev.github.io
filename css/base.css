@@ -59,7 +59,7 @@ a {
 	font: normal normal normal 14px/1 FontBookerlyBold;
 	text-decoration: none;
 	color: #662E34;
-	transition: 250px;
+	transition: 250ms;
 }
 a:hover {
 	color: #F06553;
