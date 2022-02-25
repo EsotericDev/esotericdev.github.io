@@ -45,6 +45,10 @@ img {
 	width: calc(100% - 4em);
 	padding: 10px 0px 10px 0px;
 }
+blockquote {
+	border-left: 2px;
+	border-color: #2A2920;
+}
 
 /* BASE CONFIGURATION */
 html {
@@ -106,7 +110,7 @@ section > div {
 	box-sizing: border-box;
 	padding: 5px 25px 5px 25px;
 }
-section > div p:first-of-type {
+section > div > p:first-of-type {
 	text-indent: 0px;
 }
 
