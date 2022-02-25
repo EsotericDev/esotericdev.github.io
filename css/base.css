@@ -46,6 +46,8 @@ img {
 	padding: 10px 0px 10px 0px;
 }
 blockquote {
+	font: normal normal normal 14px/1 FontBookerlyRegularItalic;
+	color: #381C2A;
 	border-width: 0px 0px 0px 2px;
 	border-color: #2A2920;
 	border-style: solid;
