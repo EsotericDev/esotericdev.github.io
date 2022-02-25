@@ -1,8 +1,5 @@
 /* INITIAL */
 * {
-	color: #2A2920;
-	font: normal normal normal 14px/1 FontBookerlyRegular;
-	font-size: medium;
 	text-rendering: optimizeLegibility;
 }
 
@@ -67,6 +64,9 @@ a:hover {
 
 /* BASE CONFIGURATION */
 html {
+	color: #2A2920;
+	font: normal normal normal 14px/1 FontBookerlyRegular;
+	font-size: medium;
 	height: 100%;
 	/*background: linear-gradient(to bottom right, #381C2A, #662E34, #F06553, #FFF474) no-repeat center center fixed;*/
 	background: url("/css/img/bg.jpg") no-repeat center center fixed;
