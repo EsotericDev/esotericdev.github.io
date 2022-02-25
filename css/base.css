@@ -46,8 +46,17 @@ img {
 	padding: 10px 0px 10px 0px;
 }
 blockquote {
-	border-left: 2px;
+	border-width: 0px 0px 0px 2px;
 	border-color: #2A2920;
+	border-style: solid;
+}
+a {
+	text-decoration: none;
+	color: #381C2A;
+	transition: 250px;
+}
+a:hover {
+	color: #662E34;
 }
 
 /* BASE CONFIGURATION */
