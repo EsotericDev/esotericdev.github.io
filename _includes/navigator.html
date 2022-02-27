@@ -13,13 +13,15 @@
 
 <section>
     <div>
-        <div style="width: 100px; float: left;">
+        <div style="width: 100px; float: left; text-align: left;">
             <h3>PREV</h3>
         </div>
-        <div style="width: 100px; float: right;">
+        <div style="width: 100px; float: right; text-align: right">
             <h3>NEXT</h3>
         </div>
-        <h3 style="text-align: centre">INDEX</h3>
+        <div style="text-align: center">
+            <h3>INDEX</h3>
+        </div>
     </div>
     {{ index }}
     {%- if col[index].url != col.first.url -%}
