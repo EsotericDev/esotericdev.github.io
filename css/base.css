@@ -137,11 +137,13 @@ section > div > p:first-of-type {
 }
 
 .footer-container {
+	box-sizing: border-box;
 	width: 100%;
 	position: absolute;
 	bottom: 0px;
 }
 .footer-spacing {
+	box-sizing: border-box;
 	height: 100px;
 }
 
