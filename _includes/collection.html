@@ -8,7 +8,7 @@
 		{%- if colrev[0].preview -%}
 			<img src="{{colrev[0].preview}}" alt="{{colrev[0].previewalt}}" class="previewimage">
 		{%- endif -%}
-		{{colrev[0].excerpt | markdownify}}<br><a href="{{colrev[0].url}}"><h3>Read more...</h3></a>
+		{{colrev[0].excerpt | markdownify}}<a href="{{colrev[0].url}}"><h3>Read more...</h3></a>
 		</div><hr><div>
 		{%- if colrev[1] -%}
 			<a href="{{colrev[1].url}}"><h3>{{colrev[1].title}}</h3></a>
