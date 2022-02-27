@@ -115,6 +115,9 @@ nav {
 	border-width: 2px 0px 2px 0px;
 	border-color: #2A2920;
 }
+nav > a > h2 {
+	display: inline;
+}
 
 /* SECTION */
 section {
