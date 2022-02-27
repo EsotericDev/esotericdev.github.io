@@ -1,1 +1,10 @@
-temp
+{%- assign col = site.news -%}
+
+{%- assign index = 0 -%}
+{%- for item in col %}
+    {%- if item.url == page.url %}
+        {%- assign index = forloop.index -%}
+    {%- endif %}
+{%- endfor -%}
+
+<section>{{ index }}</section>
