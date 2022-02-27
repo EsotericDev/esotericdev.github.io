@@ -11,10 +11,13 @@
 {%- assign index_prev = index | minus: 1 -%}
 {%- assign index_next = index | plus: 1 -%}
 
-<section>
+<nav>
     <div>
         <div style="width: 100px; float: left; text-align: left;">
-            <h3>PREV</h3>
+            {%- if col[index].url != col.first.url -%}
+                <a href="{{ col[index_prev].url }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i></a>
+                <a href="{{ col.first.url }}"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+            {%- endif -%}
         </div>
         <div style="width: 100px; float: right; text-align: right;">
             <h3>NEXT</h3>
@@ -24,14 +27,7 @@
         </div>
     </div>
     {{ index }}
-    {%- if col[index].url != col.first.url -%}
-        <br>
-        PREV:
-        <br>
-        {{ col[index_prev].url }}
-        <br>
-        {{ col.first.url }}
-    {%- endif -%}
+    
     {%- if col[index].url != col.last.url -%}
         <br>
         NEXT:
@@ -40,4 +36,4 @@
         <br>
         {{ col.last.url }}
     {%- endif -%}
-</section>
+</nav>
