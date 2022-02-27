@@ -107,8 +107,8 @@ nav {
 	display: block;
 	max-width: 1000px;
 	margin: auto;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin: 5px 0px 5px 0px;
+	padding: 5px 0px 5px 0px;
 	background-color: #F2EBD9;
 	border-style: solid;
 	border-width: 2px 0px 2px 0px;
