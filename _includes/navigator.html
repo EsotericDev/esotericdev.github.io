@@ -19,7 +19,7 @@
         <br>
         {{ col[index_prev].url }}
         <br>
-        {{ col.last.url }}
+        {{ col.first.url }}
     {%- endif -%}
     {%- if col[index_next] -%}
         <br>
@@ -27,6 +27,6 @@
         <br>
         {{ col[index_next].url }}
         <br>
-        {{ col.first.url }}
+        {{ col.last.url }}
     {%- endif -%}
 </section>
