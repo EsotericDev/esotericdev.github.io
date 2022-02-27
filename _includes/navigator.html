@@ -7,6 +7,7 @@
     {%- endif %}
 {%- endfor -%}
 
+{%- assign index = index | minus: 1 -%}
 {%- assign index_prev = index | minus: 1 -%}
 {%- assign index_next = index | plus: 1 -%}
 
