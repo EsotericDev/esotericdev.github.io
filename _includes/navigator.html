@@ -7,4 +7,21 @@
     {%- endif %}
 {%- endfor -%}
 
-<section>{{ index }}</section>
+{%- assign index_prev = index | minus: 1 -%}
+{%- assign index_next = index | plus: 1 -%}
+
+<section>
+    {{ index }}
+    {%- if col[index_prev] -%}
+        <br>
+        {{ col[index_prev].url }}
+        <br>
+        {{ col.first.url }}
+    {%- endif -%}
+    {%- if col[index_next] -%}
+        <br>
+        {{ col[index_next].url }}
+        <br>
+        {{ col.last.url }}
+    {%- endif -%}
+</section>
