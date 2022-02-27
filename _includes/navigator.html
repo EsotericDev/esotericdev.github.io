@@ -13,6 +13,7 @@
 <section>
     {{ index }}
     {%- if col[index_prev] -%}
+        <br>
         PREV:
         <br>
         {{ col[index_prev].url }}
@@ -20,6 +21,7 @@
         {{ col.last.url }}
     {%- endif -%}
     {%- if col[index_next] -%}
+        <br>
         NEXT:
         <br>
         {{ col[index_next].url }}
