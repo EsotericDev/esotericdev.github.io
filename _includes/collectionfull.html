@@ -1,4 +1,8 @@
-{%- assign colrev = include.col | reverse -%}
+{%- if include.reverse -%}
+  {%- assign colrev = include.col | reverse -%}
+{%- else -%}
+  {%- assign colrev = include.col -%}
+{%- endif -%}
 {%- for item in colrev -%}
   <section>
     <h1>{{ item.title }}</h1>
