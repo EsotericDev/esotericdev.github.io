@@ -175,3 +175,9 @@ footer {
 	border-radius: 25px 25px 0px 0px;
 	height: 100px;
 }
+footer a {
+	color: #FFF474;
+}
+footer a:hover {
+	color: #F06553;
+}
