@@ -20,19 +20,19 @@
 
 /* MARKDOWN */
 h1 {
-	font: normal normal normal FontSaddlebag;
+	font: normal normal normal 100% FontSaddlebag;
 	font-size: 200%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
 h2 {
-	font: normal normal normal FontSaddlebag;
+	font: normal normal normal 100% FontSaddlebag;
 	font-size: 250%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
 h3 {
-	font: normal normal normal FontSaddlebag;
+	font: normal normal normal 100% FontSaddlebag;
 	font-size: 125%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
@@ -43,13 +43,13 @@ p {
 	text-indent: 2em;
 }
 strong {
-	font: normal normal normal FontBookerlyBold;
+	font: normal normal normal 100% FontBookerlyBold;
 }
 em {
-	font: normal normal normal FontBookerlyRegularItalic;
+	font: normal normal normal 100% FontBookerlyRegularItalic;
 }
 strong em, em strong {
-	font: normal normal normal FontBookerlyBoldItalic;
+	font: normal normal normal 100% FontBookerlyBoldItalic;
 }
 
 img {
@@ -64,11 +64,11 @@ blockquote {
 	border-style: solid;
 }
 blockquote > p {
-	font: normal normal normal FontBookerlyRegularItalic;
+	font: normal normal normal 100% FontBookerlyRegularItalic;
 	color: #381C2A;
 }
 a {
-	font: normal normal normal FontBookerlyBold;
+	font: normal normal normal 100% FontBookerlyBold;
 	text-decoration: none;
 	color: #662E34;
 	transition: 250ms;
@@ -80,8 +80,7 @@ a:hover {
 /* BASE CONFIGURATION */
 html {
 	color: #2A2920;
-	font: normal normal normal FontBookerlyRegular;
-	font-size: medium;
+	font: normal normal normal 100% FontBookerlyRegular;
 	height: 100%;
 	/*background: linear-gradient(to bottom right, #381C2A, #662E34, #F06553, #FFF474) no-repeat center center fixed;*/
 	background: url("/css/img/bg.jpg") no-repeat center center fixed;
