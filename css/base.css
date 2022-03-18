@@ -20,20 +20,20 @@
 
 /* MARKDOWN */
 h1 {
-	font: normal normal normal 14px/1 FontSaddlebag;
-	font-size: 250%;
-	text-rendering: geometricPrecision;
-	margin: 0px;
-}
-h2 {
-	font: normal normal normal 14px/1 FontSaddlebag;
+	font: normal normal normal FontSaddlebag;
 	font-size: 200%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
+h2 {
+	font: normal normal normal FontSaddlebag;
+	font-size: 250%;
+	text-rendering: geometricPrecision;
+	margin: 0px;
+}
 h3 {
-	font: normal normal normal 14px/1 FontSaddlebag;
-	font-size: 150%;
+	font: normal normal normal FontSaddlebag;
+	font-size: 125%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
@@ -43,13 +43,13 @@ p {
 	text-indent: 2em;
 }
 strong {
-	font: normal normal normal 14px/1 FontBookerlyBold;
+	font: normal normal normal FontBookerlyBold;
 }
 em {
-	font: normal normal normal 14px/1 FontBookerlyRegularItalic;
+	font: normal normal normal FontBookerlyRegularItalic;
 }
 strong em, em strong {
-	font: normal normal normal 14px/1 FontBookerlyBoldItalic;
+	font: normal normal normal FontBookerlyBoldItalic;
 }
 
 img {
@@ -64,11 +64,11 @@ blockquote {
 	border-style: solid;
 }
 blockquote > p {
-	font: normal normal normal 14px/1 FontBookerlyRegularItalic;
+	font: normal normal normal FontBookerlyRegularItalic;
 	color: #381C2A;
 }
 a {
-	font: normal normal normal 14px/1 FontBookerlyBold;
+	font: normal normal normal FontBookerlyBold;
 	text-decoration: none;
 	color: #662E34;
 	transition: 250ms;
@@ -80,7 +80,7 @@ a:hover {
 /* BASE CONFIGURATION */
 html {
 	color: #2A2920;
-	font: normal normal normal 14px/1 FontBookerlyRegular;
+	font: normal normal normal FontBookerlyRegular;
 	font-size: medium;
 	height: 100%;
 	/*background: linear-gradient(to bottom right, #381C2A, #662E34, #F06553, #FFF474) no-repeat center center fixed;*/
