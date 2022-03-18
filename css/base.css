@@ -21,19 +21,19 @@
 /* MARKDOWN */
 h1 {
 	font: normal normal normal 14px/1 FontSaddlebag;
-	font-size: xx-large;
+	font-size: 250%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
 h2 {
 	font: normal normal normal 14px/1 FontSaddlebag;
-	font-size: x-large;
+	font-size: 200%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
 h3 {
 	font: normal normal normal 14px/1 FontSaddlebag;
-	font-size: large;
+	font-size: 150%;
 	text-rendering: geometricPrecision;
 	margin: 0px;
 }
