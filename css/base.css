@@ -152,6 +152,13 @@ section > div > p:first-of-type {
 	float: right;
 }
 
+.previewimage {
+	box-sizing: border-box;
+	width: 30%;
+	padding: 0px 20px 10px 0px;
+	float: left;
+}
+
 .footer-container {
 	box-sizing: border-box;
 	width: 100%;
